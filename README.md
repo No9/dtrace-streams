@@ -1,7 +1,7 @@
 dtrace-streams
 ==============
 
-Streaming API for DTrace on IllimOS based systems. 
+Streaming API for DTrace on IllumOS based systems. 
 
 ## Install 
 ```
