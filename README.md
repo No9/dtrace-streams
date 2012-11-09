@@ -13,7 +13,7 @@ npm install dtrace-streams
 See examples folder
 
 ```
-var dtracestream = require('../index.js')
+var dtracestream = require('dtrace-streams')
 var stm = dtracestream.traces(LOCATION_OF_D_FILE, 1000)
 stm.pipe(process.stdout);
 ```
