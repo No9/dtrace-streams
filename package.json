@@ -1,0 +1,29 @@
+{
+  "name": "dtrace-streams",
+  "description": "dtrace data as streams",
+  "tags": [
+    "dtrace",
+    "stream"
+  ],
+  "version": "0.0.1",
+  "author": {
+    "name": "Anton Whalley",
+    "email": "anton.whalley@vodafone.ie"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/No9/dtrace-streams.git"
+  },
+  "bugs": {
+    "url": "https://github.com/No9/dtrace-streams/issues"
+  },
+  "dependencies": {
+    "dtrace-provider": "0.2.4",
+    "logentries-node-libdtrace": "0.0.3"
+  },
+  "devDependencies" : {
+    },
+    "scripts" : {
+        "test" : "node test/host.js"
+  }
+}
