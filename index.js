@@ -1,6 +1,6 @@
 var fs = require('fs');
 var Stream = require('stream').Stream;
-var libdtrace = require('logentries-node-libdtrace');
+var libdtrace = require('libdtrace');
 var dtp = new libdtrace.Consumer();
 
 exports.traces = function (dfile, interval) {

@@ -5,7 +5,7 @@
     "dtrace",
     "stream"
   ],
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Anton Whalley",
     "email": "anton.whalley@vodafone.ie"
@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "dtrace-provider": "0.2.4",
-    "logentries-node-libdtrace": "0.0.3"
+    "libdtrace": "0.0.3"
   },
   "devDependencies" : {
     },
